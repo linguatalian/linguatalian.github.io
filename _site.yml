@@ -1,7 +1,14 @@
-name: "my-website"
+name: "Brazilian Talian"
 navbar:
-  title: "My Website"
-  left:
-    - text: "Home"
+  title: "Talian"
+  right:
+    - text: ""
       href: index.html
-    - text: "About"
+      icon: fa-home
+    - text: "Research & CV"
+      href: research.html
+output:
+    html_document:
+        theme: cosmo
+        highlight: tango
+output_dir: "."
